@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Sometimes username and password is needed when connecting to openvpn server. There are plenty of plugins written in python, php, ruby, ... Nevertheless, this one is written perl.
+Sometimes username and password authentication is needed when connecting to openvpn server. There are plenty of plugins written in python, php, ruby, ... Nevertheless, this one is written perl and uses htpasswd format file as a database.
 
 ## Dependencies
 
