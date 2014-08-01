@@ -12,7 +12,7 @@ Only perl and libapache-htpasswd-perl are required.
 
 1. Copy the script somewhere (I personally recomment /usr/lib/openvpn).
 2. Update your openvpn config
-... ```
+```
 auth-user-pass-verify "/usr/lib/openvpn/openvpn-auth-file.pl /etc/openvpn/passwd" via-env
 script-security 3
 client-cert-not-required
