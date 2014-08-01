@@ -12,10 +12,12 @@ Only perl and libapache-htpasswd-perl are required.
 
 1. Copy the script somewhere (I personally recomment /usr/lib/openvpn).
 2. Update your openvpn config
-... ```auth-user-pass-verify "/usr/lib/openvpn/openvpn-auth-file.pl /etc/openvpn/passwd" via-env
+```
+auth-user-pass-verify "/usr/lib/openvpn/openvpn-auth-file.pl /etc/openvpn/passwd" via-env
 script-security 3
 client-cert-not-required
-username-as-common-name```
+username-as-common-name
+```
 3. Generate your username and password (you can use this site http://www.htaccesstools.com/htpasswd-generator/) and put it to /etc/openvpn/passwd
 4. Restart openvpn
 
